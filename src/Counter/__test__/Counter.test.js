@@ -17,7 +17,6 @@ afterEach(() => {
 
 test('header renders with correct text', () => {
   const headerElement = getByTestId('header');
-
   expect(headerElement.textContent).toBe('My Counter');
 });
 
